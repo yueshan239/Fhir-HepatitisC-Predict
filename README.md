@@ -7,3 +7,5 @@ Firstly, our dataset is obtained from kaggle and transformed into FHIR resources
 To import the FHIR resource repository, we can use this command:
 
  `Set sc=##class(HS.FHIRServer.Tools.DataLoader).SubmitResourceFiles("/usr/local/src/json/","FHIRSERVER","/csp/healthshare/fhirserver/fhir/r4")`
+ 
+ ![image](https://community.intersystems.com/sites/default/files/inline/images/images/image(8147).png)
