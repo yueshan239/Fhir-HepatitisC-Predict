@@ -1,0 +1,76 @@
+{
+  "name": "T2",
+  "scanId": 2,
+  "description": "",
+  "resources": [
+    {
+      "resourceType": "Observation",
+      "columns": [
+        {
+          "name": "ValueBoolean",
+          "type": "Boolean",
+          "path": "Observation.valueBoolean",
+          "index": true
+        },
+        {
+          "name": "CodeCodingCode",
+          "type": "String",
+          "path": "Observation.code.coding.code",
+          "index": true
+        },
+        {
+          "name": "CodeCodingDisplay",
+          "type": "String",
+          "path": "Observation.code.coding.display",
+          "index": true
+        },
+        {
+          "name": "CodeText",
+          "type": "String",
+          "path": "Observation.code.text",
+          "index": true
+        },
+        {
+          "name": "SubjectReference",
+          "type": "String",
+          "path": "Observation.subject.reference",
+          "index": true
+        },
+        {
+          "name": "ValueQuantityValue",
+          "type": "Number",
+          "path": "Observation.valueQuantity.value",
+          "index": true
+        },
+        {
+          "name": "ValueQuantityCode",
+          "type": "String",
+          "path": "Observation.valueQuantity.code",
+          "index": true
+        }
+      ]
+    },
+    {
+      "resourceType": "Patient",
+      "columns": [
+        {
+          "name": "BirthDate",
+          "type": "String",
+          "path": "Patient.birthDate",
+          "index": false
+        },
+        {
+          "name": "Gender",
+          "type": "String",
+          "path": "Patient.gender",
+          "index": false
+        }
+      ]
+    }
+  ],
+  "version": 1,
+  "scanStartDateTime": "2024-01-27T06:07:23Z",
+  "scanFHIRRepositoryName": "local",
+  "id": 2,
+  "lastModified": "2024-01-27T08:56:30.713Z"
+}
